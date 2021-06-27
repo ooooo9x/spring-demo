@@ -1,9 +1,9 @@
-package com.liujf.spring01.Configuration;
+package com.liujf.spring02.Configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-//Í¬xmlÒ»ÑùÃèÊöbeanÒÔ¼°beanÖ®¼äµÄÒÀÀµ¹ØÏµ
+//åŒxmlä¸€æ ·æè¿°beanä»¥åŠbeanä¹‹é—´çš„ä¾èµ–å…³ç³»
 @Configuration
 public class TestConfig {
 //    @Bean

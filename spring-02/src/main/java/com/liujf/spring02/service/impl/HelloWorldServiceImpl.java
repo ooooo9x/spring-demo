@@ -1,6 +1,6 @@
-package com.liujf.spring01.service.impl;
+package com.liujf.spring02.service.impl;
 
-import com.liujf.spring01.service.HelloWorldService;
+import com.liujf.spring02.service.HelloWorldService;
 
 public class HelloWorldServiceImpl implements HelloWorldService {
     @Override

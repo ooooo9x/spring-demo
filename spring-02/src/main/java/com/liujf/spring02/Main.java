@@ -1,18 +1,18 @@
-package com.liujf.spring01;
+package com.liujf.spring02;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.liujf.spring01.Configuration.TestConfig;
+import com.liujf.spring02.Configuration.TestConfig;
 
 public class Main {
 
 	public static void main(String[] args) {
-		// ´Óxml¼ÓÔØÅäÖÃµ½ÈİÆ÷
+		// ä»xmlåŠ è½½é…ç½®åˆ°å®¹å™¨
 		ApplicationContext context1 = new ClassPathXmlApplicationContext("spring.xml");
 		
-		//´Ójava×¢½âµÄÅäÖÃÖĞ¼ÓÔØÅäÖÃµ½ÈİÆ÷
+		//ä»javaæ³¨è§£çš„é…ç½®ä¸­åŠ è½½é…ç½®åˆ°å®¹å™¨
         ApplicationContext context2 = new AnnotationConfigApplicationContext(TestConfig.class);
 	}
 }

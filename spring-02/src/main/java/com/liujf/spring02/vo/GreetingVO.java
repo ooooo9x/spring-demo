@@ -1,4 +1,4 @@
-package com.liujf.spring01.vo;
+package com.liujf.spring02.vo;
 
 public class GreetingVO {
 
